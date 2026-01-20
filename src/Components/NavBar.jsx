@@ -21,7 +21,7 @@ export default function Navbar() {
                         href="/items"
                         className="text-gray-300 hover:text-white transition"
                     >
-                        Items
+                        Products
                     </Link>
                     <Link
                         href="/login"

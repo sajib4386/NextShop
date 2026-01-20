@@ -2,85 +2,193 @@
     {
         "id": 1,
         "name": "Wireless Headphones",
+        "brand": "NextSound",
+        "category": "Audio",
         "description": "High-quality wireless headphones with noise cancellation.",
         "price": 99.99,
-        "image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lyZWxlc3MlMjBoZWFkcGhvbmVzfGVufDB8fDB8fHww"
+        "rating": 4.6,
+        "stock": 25,
+        "features": [
+            "Noise Cancellation",
+            "Bluetooth 5.0",
+            "20 Hours Battery Life"
+        ],
+        "image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?fm=jpg&q=60&w=3000"
     },
     {
         "id": 2,
         "name": "Smart Watch",
+        "brand": "NextWear",
+        "category": "Wearables",
         "description": "Track your fitness and notifications with this sleek smartwatch.",
         "price": 149.99,
-        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D"
+        "rating": 4.4,
+        "stock": 18,
+        "features": [
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Water Resistant"
+        ],
+        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?fm=jpg&q=60&w=3000"
     },
     {
         "id": 3,
         "name": "Bluetooth Speaker",
+        "brand": "SoundMax",
+        "category": "Audio",
         "description": "Portable speaker with powerful sound and long battery life.",
         "price": 59.99,
+        "rating": 4.5,
+        "stock": 30,
+        "features": [
+            "Deep Bass",
+            "Portable Design",
+            "12 Hours Playtime"
+        ],
         "image": "https://media.wired.com/photos/683a782e13687d4580a2c63a/4:3/w_640%2Cc_limit/StormBox%25202%2520ryan%2520waniata.png"
     },
     {
         "id": 4,
         "name": "Gaming Mouse",
+        "brand": "ProGear",
+        "category": "Gaming",
         "description": "Ergonomic mouse with customizable buttons and RGB lighting.",
         "price": 39.99,
-        "image": "https://images.unsplash.com/photo-1628832307345-7404b47f1751?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtaW5nJTIwbW91c2V8ZW58MHx8MHx8fDA%3D"
+        "rating": 4.3,
+        "stock": 40,
+        "features": [
+            "RGB Lighting",
+            "Adjustable DPI",
+            "Ergonomic Design"
+        ],
+        "image": "https://images.unsplash.com/photo-1628832307345-7404b47f1751?fm=jpg&q=60&w=3000"
     },
     {
         "id": 5,
         "name": "LED Monitor",
+        "brand": "ViewTech",
+        "category": "Displays",
         "description": "27-inch full HD monitor with vivid colors.",
         "price": 179.99,
-        "image": "https://img.freepik.com/free-psd/modern-tv-screen-isolated_23-2151430340.jpg?semt=ais_hybrid&w=740&q=80"
+        "rating": 4.5,
+        "stock": 15,
+        "features": [
+            "Full HD Resolution",
+            "Slim Bezel",
+            "Eye Care Technology"
+        ],
+        "image": "https://img.freepik.com/free-psd/modern-tv-screen-isolated_23-2151430340.jpg?w=740"
     },
     {
         "id": 6,
         "name": "Mechanical Keyboard",
+        "brand": "KeyMaster",
+        "category": "Accessories",
         "description": "RGB mechanical keyboard with tactile keys.",
         "price": 69.99,
-        "image": "https://img.freepik.com/free-photo/keyboard-with-neon-lights-high-angle_23-2149680226.jpg?semt=ais_hybrid&w=740&q=80"
+        "rating": 4.7,
+        "stock": 22,
+        "features": [
+            "Mechanical Switches",
+            "RGB Backlight",
+            "Durable Build"
+        ],
+        "image": "https://img.freepik.com/free-photo/keyboard-with-neon-lights-high-angle_23-2149680226.jpg?w=740"
     },
     {
         "id": 7,
         "name": "Gaming Chair",
+        "brand": "ComfortPro",
+        "category": "Furniture",
         "description": "Comfortable chair for long gaming sessions.",
         "price": 129.99,
+        "rating": 4.4,
+        "stock": 10,
+        "features": [
+            "Ergonomic Support",
+            "Adjustable Height",
+            "Premium Cushion"
+        ],
         "image": "https://m.media-amazon.com/images/I/817VI3DpflL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "id": 8,
         "name": "Smartphone",
+        "brand": "NextPhone",
+        "category": "Mobile",
         "description": "Latest model smartphone with great camera.",
         "price": 699.99,
-        "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?cs=srgb&dl=pexels-fotios-photos-1092644.jpg&fm=jpg"
+        "rating": 4.6,
+        "stock": 12,
+        "features": [
+            "High Resolution Camera",
+            "Fast Processor",
+            "Long Battery Life"
+        ],
+        "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
     },
     {
         "id": 9,
         "name": "Tablet",
+        "brand": "TabX",
+        "category": "Tablets",
         "description": "Lightweight tablet for work and play.",
         "price": 399.99,
-        "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGV0fGVufDB8fDB8fHww"
+        "rating": 4.3,
+        "stock": 14,
+        "features": [
+            "Large Display",
+            "Portable Design",
+            "Multi-tasking Support"
+        ],
+        "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?fm=jpg&q=60&w=3000"
     },
     {
         "id": 10,
         "name": "Fitness Band",
+        "brand": "FitTrack",
+        "category": "Wearables",
         "description": "Monitor your health and workouts easily.",
         "price": 49.99,
+        "rating": 4.2,
+        "stock": 35,
+        "features": [
+            "Step Counter",
+            "Heart Rate Monitor",
+            "Sleep Tracking"
+        ],
         "image": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:437,cw:1125,ch:1125,q:80,w:1125/Pk5ydxYo6ty2Q4SX9vznP6.jpg"
     },
     {
         "id": 11,
         "name": "Portable Charger",
+        "brand": "PowerGo",
+        "category": "Accessories",
         "description": "Fast-charging power bank for your devices.",
         "price": 29.99,
+        "rating": 4.4,
+        "stock": 50,
+        "features": [
+            "Fast Charging",
+            "Compact Design",
+            "High Capacity"
+        ],
         "image": "https://media.istockphoto.com/id/1409737619/photo/a-mobile-phone-being-charged-using-a-power-bank-is-on-the-table.jpg?s=612x612&w=0&k=20&c=Z8T2cLqSCItTo3UwbeL-Lx8N4gyjMH7QUvxd_XVuQlU="
     },
     {
         "id": 12,
         "name": "Camera Lens",
+        "brand": "LensPro",
+        "category": "Photography",
         "description": "High-quality lens for DSLR cameras.",
         "price": 249.99,
-        "image": "https://images.unsplash.com/photo-1582994254571-52c62d96ebab?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhJTIwbGVuc3xlbnwwfHwwfHx8MA%3D%3D"
+        "rating": 4.8,
+        "stock": 8,
+        "features": [
+            "Sharp Image Quality",
+            "Wide Aperture",
+            "Professional Grade"
+        ],
+        "image": "https://images.unsplash.com/photo-1582994254571-52c62d96ebab?fm=jpg&q=60&w=3000"
     }
 ]

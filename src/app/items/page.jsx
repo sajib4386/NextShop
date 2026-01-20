@@ -15,7 +15,7 @@ export default function ItemsPage() {
     return (
         <section className="bg-[#0B0B0F] min-h-screen py-20 px-6">
             <div className="max-w-7xl mx-auto">
-                <h1 className="text-3xl font-bold text-white mb-12 text-center">Our Items</h1>
+                <h1 className="text-3xl font-bold text-white mb-12 text-center">Our Products</h1>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                     {items.map((item) => (
