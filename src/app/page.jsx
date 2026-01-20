@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Hero from "./Landings/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-4">Welcome to NextShop</h1>
-      <p>This is the landing page.</p>
-    </div>
+    <main className="bg-[#0B0B0F] text-white">
+      <Hero></Hero>
+    </main>
   );
 }
 
