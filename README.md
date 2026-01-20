@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Simple E-Commerce Website (Next.js 15/16 App Router)
 
-## Getting Started
+## 📌 Project Name
+Simple E-Commerce Website
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Purpose
+This project is a **simple e-commerce web application** built using **Next.js 15/16 (App Router)**.  
+The main goal is to demonstrate core Next.js concepts such as routing, layouts, data fetching, authentication, and protected routes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application allows users to browse products publicly, while authenticated users can add new products.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Live Site
+Live URL: http://localhost:3000
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👥 User Roles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Admin
+- Login using mock credentials
+- Add new products
+- Access protected routes
+- Manage personal session via cookies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Public User
+- View landing page
+- Browse product list
+- View product details
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Key Features
+- Landing page with multiple sections
+- Product listing from local JSON file
+- Product details page
+- Mock authentication system
+- Cookie-based authentication
+- Protected routes with redirection
+- Add product functionality (authenticated only)
+- Responsive UI with Tailwind CSS
+- Hover effects and smooth transitions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔐 Authentication
+- Mock login credentials:
+  - **Email:** admin@example.com
+  - **Password:** 123456
+- Authentication handled using **cookies**
+- Protected routes redirect unauthenticated users to the login page
+
+---
+
+## 🧑‍💻 Tech Stack
+- Next.js 15/16 (App Router)
+- React
+- Tailwind CSS
+- Cookie-based authentication
+- Local JSON file for data storage
+
+---
+
+## 📦 npm Packages Used
+- next
+- react
+- react-dom
+- tailwindcss
+- postcss
+- autoprefixer
+- js-cookie
+
+---  
+
+## Setup Instructions
+
+1. Clone the client repository  
+   git clone https://github.com/your-username/NextShop.git
+
+2. Navigate to the project directory  
+   cd next-shop
+
+3. Install all dependencies  
+   npm install
+
+4. Run the development server  
+   npm run dev
+
+5. Open the project in your browser  
+   http://localhost:3000
