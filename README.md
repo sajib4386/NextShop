@@ -1,14 +1,12 @@
 # 🛒 Simple E-Commerce Website (Next.js 15/16 App Router)
 
 ## 📌 Project Name
-Simple E-Commerce Website
+NextShop
 
 ---
 
 ## 🎯 Purpose
 This project is a **simple e-commerce web application** built using **Next.js 15/16 (App Router)**.  
-The main goal is to demonstrate core Next.js concepts such as routing, layouts, data fetching, authentication, and protected routes.
-
 The application allows users to browse products publicly, while authenticated users can add new products.
 
 ---
